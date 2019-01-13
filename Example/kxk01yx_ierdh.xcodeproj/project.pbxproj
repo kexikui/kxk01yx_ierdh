@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47DD212D8D8D3F4CCDF561C7 /* Pods_kxk01yx_ierdh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B222EF76930ED6BE0CDD32 /* Pods_kxk01yx_ierdh_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,14 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6B3554B8B993D5703F530DE0 /* Pods_kxk01yx_ierdh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC1E71CCF840D001A8A0C43 /* Pods_kxk01yx_ierdh_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		775B4F6E785F780FA43D6407 /* Pods_kxk01yx_ierdh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566578D90BC3AB8D8DC545B8 /* Pods_kxk01yx_ierdh_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BB80F3E063885C3963BB935A /* Pods_kxk01yx_ierdh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E1F258F94BD05E7FD46B4D /* Pods_kxk01yx_ierdh_Tests.framework */; };
+		CED1748821EB37BA005C5ADE /* SetI001.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED1748721EB37BA005C5ADE /* SetI001.framework */; };
+		CED174B521EB3EE0005C5ADE /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = CED174A621EB3EDF005C5ADE /* config.xml */; };
+		CED174B621EB3EE0005C5ADE /* TMBaseConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED174A721EB3EDF005C5ADE /* TMBaseConfig.plist */; };
+		CED174C221EB3EF2005C5ADE /* pages in Resources */ = {isa = PBXBuildFile; fileRef = CED174C021EB3EF2005C5ADE /* pages */; };
+		CED174C321EB3EF2005C5ADE /* tm_src in Resources */ = {isa = PBXBuildFile; fileRef = CED174C121EB3EF2005C5ADE /* tm_src */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,7 @@
 
 /* Begin PBXFileReference section */
 		3028C8C520BF7EE8200A5A3A /* Pods-kxk01yx_ierdh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kxk01yx_ierdh_Example.debug.xcconfig"; path = "Target Support Files/Pods-kxk01yx_ierdh_Example/Pods-kxk01yx_ierdh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		566578D90BC3AB8D8DC545B8 /* Pods_kxk01yx_ierdh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kxk01yx_ierdh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56C2DF0D4CB24B20478C33AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		56C2DF0D4CB24B20478C33AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* kxk01yx_ierdh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kxk01yx_ierdh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +63,20 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		682720BC53765BE559181DFB /* kxk01yx_ierdh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = kxk01yx_ierdh.podspec; path = ../kxk01yx_ierdh.podspec; sourceTree = "<group>"; };
+		682720BC53765BE559181DFB /* kxk01yx_ierdh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = kxk01yx_ierdh.podspec; path = ../kxk01yx_ierdh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		727207A7448ABCAF5BAAB19F /* Pods-kxk01yx_ierdh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kxk01yx_ierdh_Example.release.xcconfig"; path = "Target Support Files/Pods-kxk01yx_ierdh_Example/Pods-kxk01yx_ierdh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76B222EF76930ED6BE0CDD32 /* Pods_kxk01yx_ierdh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kxk01yx_ierdh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E1F258F94BD05E7FD46B4D /* Pods_kxk01yx_ierdh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kxk01yx_ierdh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8879E16BF15F389D3CABC5D0 /* Pods-kxk01yx_ierdh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kxk01yx_ierdh_Tests.release.xcconfig"; path = "Target Support Files/Pods-kxk01yx_ierdh_Tests/Pods-kxk01yx_ierdh_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8FC1E71CCF840D001A8A0C43 /* Pods_kxk01yx_ierdh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kxk01yx_ierdh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED1748721EB37BA005C5ADE /* SetI001.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SetI001.framework; path = Pods/TMUserCenter/TMFramework/SetI001.framework; sourceTree = "<group>"; };
+		CED174A621EB3EDF005C5ADE /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		CED174A721EB3EDF005C5ADE /* TMBaseConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TMBaseConfig.plist; sourceTree = "<group>"; };
+		CED174C021EB3EF2005C5ADE /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pages; sourceTree = "<group>"; };
+		CED174C121EB3EF2005C5ADE /* tm_src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tm_src; sourceTree = "<group>"; };
 		D349499E85FE84FECA4BFA73 /* Pods-kxk01yx_ierdh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kxk01yx_ierdh_Tests.debug.xcconfig"; path = "Target Support Files/Pods-kxk01yx_ierdh_Tests/Pods-kxk01yx_ierdh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAD0D58B2D3EA14222514B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FAD0D58B2D3EA14222514B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED1748821EB37BA005C5ADE /* SetI001.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6B3554B8B993D5703F530DE0 /* Pods_kxk01yx_ierdh_Example.framework in Frameworks */,
+				47DD212D8D8D3F4CCDF561C7 /* Pods_kxk01yx_ierdh_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +99,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				775B4F6E785F780FA43D6407 /* Pods_kxk01yx_ierdh_Tests.framework in Frameworks */,
+				BB80F3E063885C3963BB935A /* Pods_kxk01yx_ierdh_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +130,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CED1748721EB37BA005C5ADE /* SetI001.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8FC1E71CCF840D001A8A0C43 /* Pods_kxk01yx_ierdh_Example.framework */,
-				566578D90BC3AB8D8DC545B8 /* Pods_kxk01yx_ierdh_Tests.framework */,
+				76B222EF76930ED6BE0CDD32 /* Pods_kxk01yx_ierdh_Example.framework */,
+				85E1F258F94BD05E7FD46B4D /* Pods_kxk01yx_ierdh_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +144,7 @@
 		6003F593195388D20070C39A /* Example for kxk01yx_ierdh */ = {
 			isa = PBXGroup;
 			children = (
+				CED174A521EB3EDF005C5ADE /* config */,
 				6003F59C195388D20070C39A /* YymAppDelegate.h */,
 				6003F59D195388D20070C39A /* YymAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +206,19 @@
 				D349499E85FE84FECA4BFA73 /* Pods-kxk01yx_ierdh_Tests.debug.xcconfig */,
 				8879E16BF15F389D3CABC5D0 /* Pods-kxk01yx_ierdh_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CED174A521EB3EDF005C5ADE /* config */ = {
+			isa = PBXGroup;
+			children = (
+				CED174C021EB3EF2005C5ADE /* pages */,
+				CED174C121EB3EF2005C5ADE /* tm_src */,
+				CED174A621EB3EDF005C5ADE /* config.xml */,
+				CED174A721EB3EDF005C5ADE /* TMBaseConfig.plist */,
+			);
+			name = config;
+			path = ../../../Desktop/config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +232,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6040082F366A73FD50B4AFA9 /* [CP] Embed Pods Frameworks */,
+				40E963379EECC6D3AEFE1DA1 /* [CP] Copy Pods Resources */,
+				0E660D5EE956D72F9548E21D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +273,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wxwlcp;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PQ6G424974;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -278,9 +306,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				CED174C221EB3EF2005C5ADE /* pages in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				CED174B621EB3EE0005C5ADE /* TMBaseConfig.plist in Resources */,
+				CED174C321EB3EF2005C5ADE /* tm_src in Resources */,
+				CED174B521EB3EE0005C5ADE /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +327,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6040082F366A73FD50B4AFA9 /* [CP] Embed Pods Frameworks */ = {
+		0E660D5EE956D72F9548E21D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,17 +336,61 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-kxk01yx_ierdh_Example/Pods-kxk01yx_ierdh_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/kxk01yx_ierdh/kxk01yx_ierdh.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TYAttributedLabel/TYAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/kxk01yx_ierdh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kxk01yx_ierdh_Example/Pods-kxk01yx_ierdh_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E963379EECC6D3AEFE1DA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kxk01yx_ierdh_Example/Pods-kxk01yx_ierdh_Example-resources.sh",
+				"${PODS_ROOT}/TMShare/TMFramework/TMShare.bundle",
+				"${PODS_ROOT}/TMUserCenter/TMFramework/SetI001.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TMShare.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SetI001.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kxk01yx_ierdh_Example/Pods-kxk01yx_ierdh_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		640C3B1054E754151BE4B46A /* [CP] Check Pods Manifest.lock */ = {
@@ -498,12 +574,18 @@
 			baseConfigurationReference = 3028C8C520BF7EE8200A5A3A /* Pods-kxk01yx_ierdh_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PQ6G424974;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/TMUserCenter/TMFramework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kxk01yx_ierdh/kxk01yx_ierdh-Prefix.pch";
 				INFOPLIST_FILE = "kxk01yx_ierdh/kxk01yx_ierdh-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,12 +595,18 @@
 			baseConfigurationReference = 727207A7448ABCAF5BAAB19F /* Pods-kxk01yx_ierdh_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PQ6G424974;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/TMUserCenter/TMFramework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kxk01yx_ierdh/kxk01yx_ierdh-Prefix.pch";
 				INFOPLIST_FILE = "kxk01yx_ierdh/kxk01yx_ierdh-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

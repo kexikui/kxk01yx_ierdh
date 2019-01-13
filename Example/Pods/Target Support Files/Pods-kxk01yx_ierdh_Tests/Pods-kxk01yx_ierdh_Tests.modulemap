@@ -1,0 +1,6 @@
+framework module Pods_kxk01yx_ierdh_Tests {
+  umbrella header "Pods-kxk01yx_ierdh_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

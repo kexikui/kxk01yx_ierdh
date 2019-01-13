@@ -7,9 +7,10 @@
 //
 
 @import UIKit;
+#import <TMSDK/CDVAppDelegate+TMJPush.h>
 
-@interface YymAppDelegate : UIResponder <UIApplicationDelegate>
+@interface YymAppDelegate : CDVAppDelegate <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+//@property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -8,11 +8,18 @@
 
 #import "YymAppDelegate.h"
 
+#import <kxk01yx_ierdh/Yym_WebViewController.h>
+
 @implementation YymAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    Yym_WebViewController * vc = [[Yym_WebViewController alloc]init];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

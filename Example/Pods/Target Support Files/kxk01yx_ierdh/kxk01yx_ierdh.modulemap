@@ -1,0 +1,6 @@
+framework module kxk01yx_ierdh {
+  umbrella header "kxk01yx_ierdh-umbrella.h"
+
+  export *
+  module * { export * }
+}

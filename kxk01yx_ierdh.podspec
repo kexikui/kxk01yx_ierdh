@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'kxk01yx_ierdh'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of kxk01yx_ierdh.'
 
 # This description is used to generate tags and improve search results.
@@ -24,19 +24,23 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/wxwlcp/kxk01yx_ierdh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wxwlcp' => 'kexikui@yeah.net' }
-  s.source           = { :git => 'https://github.com/wxwlcp/kxk01yx_ierdh.git', :tag => s.version.to_s }
+  s.author           = { 'kexikui' => 'kexikui@yeah.net' }
+  s.source           = { :git => 'https://github.com/kexikui/kxk01yx_ierdh.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'kxk01yx_ierdh/Classes/**/*'
   
   # s.resource_bundles = {
   #   'kxk01yx_ierdh' => ['kxk01yx_ierdh/Assets/*.png']
   # }
-
+  s.xcconfig = {
+    'VALID_ARCHS' =>  'arm64 x86_64',
+  }
+  s.static_framework = true
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#   s.frameworks = 'SetI001.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency      'TMUserCenter'
 end

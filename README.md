@@ -20,6 +20,8 @@ it, simply add the following line to your Podfile:
 pod 'kxk01yx_ierdh'
 ```
 
+教育模块直接调用Yym_WebViewController 便可，[TMEngineConfig sharedManager].domain 服务器地址自己在工程中配置就好
+
 ## Author
 
 wxwlcp, kexikui@yeah.net
