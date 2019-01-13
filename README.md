@@ -1,4 +1,5 @@
 # kxk01yx_ierdh
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/wxwlcp/kxk01yx_ierdh.svg?style=flat)](https://travis-ci.org/wxwlcp/kxk01yx_ierdh)
 [![Version](https://img.shields.io/cocoapods/v/kxk01yx_ierdh.svg?style=flat)](https://cocoapods.org/pods/kxk01yx_ierdh)
@@ -29,3 +30,6 @@ wxwlcp, kexikui@yeah.net
 ## License
 
 kxk01yx_ierdh is available under the MIT license. See the LICENSE file for more info.
+=======
+教育模块
+>>>>>>> da3e0d1c9451edbe399f8ea149abba05626bde79
