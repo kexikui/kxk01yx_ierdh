@@ -18,11 +18,9 @@
 - (instancetype)init
 {
     self = [super init];
-    if (self) {
-        NSLog(@"self %@",[TMEngineConfig sharedManager].domain);
+    if (self) {//保持原有设计
         self.native = NO;
         self.startPage =[NSString stringWithFormat:@"%@/application/kxk01yx_ierdh/h5/index.html#/",[TMEngineConfig sharedManager].domain];
-//        http://tm.you1mei.com
     }
     return self;
 }
