@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'kxk01yx_ierdh_Example' do
+  pod 'kxk01yx_ierdh', :path => '../'
+
+  target 'kxk01yx_ierdh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
